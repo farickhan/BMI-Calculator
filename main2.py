@@ -2,7 +2,8 @@
 import streamlit as st
 
 # give a title to our app
-st.title('Welcome to Faris BMI Calculator')
+st.title('Faris BMI Calculator')
+st.text("We are building BMI Calculator")
 
 # TAKE WEIGHT INPUT in kgs
 weight = st.number_input("Enter your weight (in kgs)")
